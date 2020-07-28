@@ -1,4 +1,4 @@
-name: convex
+name: convex_env
 dependencies:
   - pip:
     - configparser
