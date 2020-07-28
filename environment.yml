@@ -1,0 +1,6 @@
+name: convex
+dependencies:
+  - python=3.6 
+  - pip:
+    - configparser
+    - pyspark
