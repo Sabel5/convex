@@ -20,7 +20,7 @@ After running the code, deactivate the environment:
 The app.py file takes 3 arguments: an S3 input path, an S3 output path, and a AWS profile name (optinal, the default value is 'default').
 
 Example:
-<pre><code>python app.py -i s3a/input/path -o s3a/output/path -p aws_profile_name 
+<pre><code>python app.py -i s3a://input_bucket/path -o s3a://output_bucket/path -p aws_profile_name 
 </code></pre>
 
 The app only works with buckets in the us-west-1 region.
