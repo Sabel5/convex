@@ -23,4 +23,4 @@ Example:
 <pre><code>python app.py -i s3a://input_path -o s3a://output_path -p aws_profile_name 
 </code></pre>
 
-The app only works with buckets in the us-west-1 region.
+The app only works with buckets in the us-east-1 region.
